@@ -1,0 +1,6 @@
+Information           Command
+vCPUs                 snmpwalk -v 2c -c public localhost iso.3.6.1.4.1.2021.11.52.0
+RAM                   snmpwalk -v 2c -c public localhost iso.3.6.1.4.1.2021.4.5.0
+Disk                  snmpwalk -v 2c -c public localhost iso.3.6.1.4.1.2021.9.1.6.1
+Operating System      snmpwalk -v 2c -c public localhost iso.3.6.1.2.1.1.1
+Number of NICs        snmpwalk -v 2c -c public localhost iso.3.6.1.2.1.2.1
